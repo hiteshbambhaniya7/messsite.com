@@ -1,0 +1,119 @@
+/* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
+@media (min-width: 1281px) {
+
+    /* code in this block will be applied only if device width>1281 */
+    #navbar {
+         gap: 850px;
+    }
+}
+
+/* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* code in this block will be applied only if device width>1025 and <1280 */
+    #navbar {
+         gap: 750px;
+    }
+}
+
+/* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* code in this block will be applied only if device width>768 and <1024 */
+    #navbar {
+         gap: 425px;
+    }
+}
+
+/* ##Device = Low Resolution Tablets,  ##Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* code in this block will be applied only if device width>481 and <767 */
+    #navbar {
+         gap: 170px;
+    }
+}
+
+/*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* code in this block will be applied only if device width>320 and <480 */
+    #navbar {
+         gap: 50px;
+    }
+    
+}
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#link_section
+{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+#navbar {
+    display: flex;
+    background-color: #000000;
+    color: white; 
+}
+
+.navbar {
+    overflow: hidden;
+    /* background-color: #666666; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+  }
+
+
+li
+{
+    display: inline;
+    margin: 10px;
+}
+
+.nav_link:link,
+.nav_link:visited,
+.nav_link:active {
+     color: white;
+     text-decoration: none;
+     font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#poster_background
+{
+    /* background-color: #000000; */
+    width: 100%;
+    margin-top: 75px;
+    height: 2000px;
+
+}
+
+div>img
+{
+    /* border:1px solid #ffffff; */
+}
+
+.poster_image
+{  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background
+{
+    background-color: #000000;
+}
+
+
+  
+
