@@ -7,24 +7,70 @@
     <title>messsite.com-Home</title>
     <link rel="icon" href="../messsite.com/images/logo1.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="1_home_page_style.css">
 </head>
 <body>
+    <!-- navigation bar -->
     <div id="navbar" class="navbar">
         <div>
-            <img src="../messsite.com/images/logo1 - Copy.png" height="75px" alt="">
+            <img class="brand_logo" src="../messsite.com/images/logo1 - Copy.png" height="75px" alt="">
         </div>
         <div id="link_section">
-            <a href="" class="nav_link">Home</a>
-            <a href="" class="nav_link">About us</a>    
+            <a href="" class="nav_link">Sign in</a>  
+            <a href="">
+                <button id="sign_up">
+                    Sign up
+                </button>
+            </a> 
        </div>
     </div>
-
     <div id="poster_background">
+        <!-- poster -->
         <div class="background">
-            <img class="poster_image" src="../messsite.com/images/logo1 - Copy.png" alt="">
+            <img class="poster_image" src="../messsite.com/images/logo1 - Copy.png">
         </div>
-    </div> 
+        <!-- slogan -->
+        <div id="slogan" align="center">
+            "Make your business more powerfull"
+        </div>
+        
+        <div align="center">
+            <!-- product detail -->
+            <div id="product_title" >
+                Our Products
+            </div>
+            <div id="products" >
+                <div id="crm">
+                    <img class="product_logo" src="../messsite.com/images/crm.png" alt="" >
+                    <p class="text">
+                        <span class="product_heading">CRM</span><br><br><br>A CRM system helps organisations build customer relationships and streamline processes so they can increase sales, improve customer service, and increase profitability.
+                    </p>
+                </div>
+                <div id="email_marketing">
+                    <img class="product_logo"src="../messsite.com/images/mail.png" alt="">
+                    <p class="text">
+                        <span class="product_heading">Email Marketing Automation</span><br><br>Email marketing automation allows you to set up predefined workflows or sequences of emails that are triggered by specific events or actions.
+                    </p>
+                </div>
+                <div id="data_analytics">
+                    <img class="product_logo" src="../messsite.com/images/Data Analytics and Visualization.png" alt="">
+                    <p class="text">
+                        <span class="product_heading">Data Analytics and Visualization</span><br><br>Data analytics and visualization refer to the process of collecting, analyzing, interpreting, and presenting data in a visual and easily understandable format. 
+                    </p>
+                </div>
+            </div>
+
+            <!-- register button -->
+            <div id="register_button" >
+                <a href="">
+                    <button id="register">
+                        Register for free
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
