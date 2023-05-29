@@ -16,6 +16,10 @@
     {
         display: flex;
     }
+    #social_links
+    {
+        display: flex;
+    }
 }
 
 /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
@@ -31,6 +35,10 @@
         font-size: 3rem;
     }
     #products
+    {
+        display: flex;
+    }
+    #social_links
     {
         display: flex;
     }
@@ -90,7 +98,8 @@
     .nav_link
     {
         font-size: 12px;
-    }  
+    } 
+   
 }
 
 /* ======================================================================== */
@@ -175,7 +184,7 @@ li
     /* background-color: #000000; */
     width: 100%;
     margin-top: 75px;
-    height: 2000px;
+    height: 1600px;
 
 }
 
@@ -205,14 +214,12 @@ div>img
 
 /* style for product */
 
-#product_title
+.title
 {
     font-size: 2rem;
     margin-top: 70px;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
-    text-decoration-line: underline;
-    text-decoration-thickness: 2px;
     letter-spacing: 2px;
 }
 .product_logo
@@ -239,7 +246,7 @@ div>img
 {
     font-family: 'Poppins', sans-serif;
     letter-spacing: -0.5px;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 1.6;
 }
 
@@ -294,4 +301,58 @@ div>img
     right: 10px;
 }
 
+/* social */
+#container
+{   
+    text-align: center;
+    margin-bottom: 50px;
+}
+#social_links
+{
+    
+    text-align: center;
+    position: relative;
+    min-height: 1px;
+    /* display: flex; */
+    gap: 100px;
+    justify-content: center;
 
+}
+
+.social_icon
+{
+    display: inline-block;
+    padding: 20px;
+}
+
+div>a:link,
+div>a:visited,
+div>a:active
+{
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.icon
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.load-footer
+{
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 0px 0 20px;
+    background: #000000;
+    position: relative;
+    z-index: 1;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+.footer_logo
+{
+    margin-top: 10px;
+}
